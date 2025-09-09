@@ -100,7 +100,7 @@ function Board({ toDos, boardId }: IBoardProps) {
 
   const onEdit = () => {
     const newBoardId = window
-      .prompt(`${boardId} 할 일의 새 이름을 입력해주세요.`, boardId)
+      .prompt(`${boardId} 할 일의 새 이름을 입력해주세요...`, boardId)
       ?.trim();
 
     console.log(newBoardId);
